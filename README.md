@@ -9,6 +9,27 @@ This repository contains the laboratory assignments for Backend Development Fund
 - **Section:** CSE FSD - [2B]
 - **Course:** Backend Development Fundamentals
 
+## Repository Structure
+
+```text
+Backend_Development_Fundamentals/
+├── lab-01/
+├── lab-02/
+├── Lab-03/
+│   ├── screenshots/
+│   ├── .gitignore
+│   ├── books.db
+│   ├── lab-03.postman_collection.json
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   ├── seed.sql
+│   └── server.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
 ## Labs Directory
 
 - [**Lab 01: Node.js and Express Server**](./lab-01/README.md)
@@ -22,6 +43,13 @@ This repository contains the laboratory assignments for Backend Development Fund
   - Schema & Seed: `lab-02/seed.sql`
   - Screenshots: `lab-02/screenshots/`
 
+- [**Lab 03: REST API, Query Parameters, Validation**](./Lab-03/README.md)
+  - Express Server: `Lab-03/server.js`
+  - Database: `Lab-03/books.db`
+  - Schema & Seed: `Lab-03/seed.sql`
+  - Postman Collection: `Lab-03/lab-03.postman_collection.json`
+  - Screenshots: `Lab-03/screenshots/`
+
 ## Quick Start
 
 ### Lab 01 (Basic Express & HTTP Server)
@@ -34,6 +62,13 @@ npm start
 ### Lab 02 (SQLite Database & CRUD APIs)
 ```bash
 cd lab-02
+npm install
+npm start
+```
+
+### Lab 03 (REST API, Query Parameters & Validation)
+```bash
+cd Lab-03
 npm install
 npm start
 ```
