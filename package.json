@@ -1,9 +1,11 @@
 {
-  "name": "lab-1",
+  "name": "backend-development-fundamentals",
   "version": "1.0.0",
-  "description": "Backend Development Fundamentals - Lab 1",
+  "description": "Backend Development Fundamentals - Course Lab Work",
   "scripts": {
-    "start": "node lab-01/server.js",
-    "start:http": "node lab-01/server-http.js"
-  }
+    "start:lab-01": "node lab-01/server.js",
+    "start:lab-02": "node lab-02/server.js"
+  },
+  "author": "Y. N. V. Pavan Sai",
+  "license": "ISC"
 }
